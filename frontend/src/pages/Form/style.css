@@ -1,33 +1,33 @@
-.movie-form-container {
+.movies-form-container {
     max-width: 480px;
     margin: 40px auto;
     padding: 20px;
 }
 
-.movie-form {
+.movies-form {
     width: calc(100% - 20px);
 }
 
-.movie-form-group {
+.movies-form-group {
     margin-bottom: 20px;
 }
 
-.movie-form-group label {
+.movies-form-group label {
     font-size: 12px;
     color: #aaa;
 }
 
-.movie-form-btn-container {
+.movies-form-btn-container {
     display: flex;
     justify-content: center;
 }
 
-.movie-movie-card-image {
+.movies-movies-card-image {
     width: 100%;
     border-radius: 8px 8px 0 0;
 }
 
-.movie-card-bottom-container {
+.movies-card-bottom-container {
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
     border-radius: 0 0 8px 8px;
 }
 
-.movie-card-bottom-container h3 {
+.movies-card-bottom-container h3 {
     color: #4A4A4A;
     text-align: center;
     font-size: 14px;
@@ -45,7 +45,7 @@
     min-height: 40px;
 }
 
-.movie-btn {
+.movies-btn {
     background-color: var(--color-primary);
     font-size: 14px;
     font-weight: 700;

@@ -5,12 +5,12 @@ export function Navbar() {
     return (
         <header>
             <nav className="container">
-                <div className="movie-nav-content">
+                <div className="movies-nav-content">
                     <h1>Movies</h1>
                     <a href="https://github.com/douglasmatosdev" target="_blank" rel="noreferrer">
-                        <div className="movie-contact-container">
+                        <div className="movies-contact-container">
                             <GithubIcon />
-                            <p className="movie-contact-link">/douglasmatosdev</p>
+                            <p className="movies-contact-link">/douglasmatosdev</p>
                         </div>
                     </a>
                 </div>

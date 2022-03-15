@@ -11,16 +11,16 @@ function Form() {
     };
 
     return (
-        <div className="movie-form-container">
-            <img className="movie-movie-card-image" src={movie.image} alt={movie.title} />
-            <div className="movie-card-bottom-container">
+        <div className="movies-form-container">
+            <img className="movies-movies-card-image" src={movie.image} alt={movie.title} />
+            <div className="movies-card-bottom-container">
                 <h3>"{movie.title}</h3>
-                <form className="movie-form">
-                    <div className="form-group movie-form-group">
+                <form className="movies-form">
+                    <div className="form-group movies-form-group">
                         <label htmlFor="email">Informe seu email</label>
                         <input type="email" className="form-control" id="email" />
                     </div>
-                    <div className="form-group movie-form-group">
+                    <div className="form-group movies-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
                         <select className="form-control" id="score">
                             <option>1</option>
@@ -30,11 +30,11 @@ function Form() {
                             <option>5</option>
                         </select>
                     </div>
-                    <div className="movie-form-btn-container">
-                        <button type="submit" className="btn btn-primary movie-btn">Salvar</button>
+                    <div className="movies-form-btn-container">
+                        <button type="submit" className="btn btn-primary movies-btn">Salvar</button>
                     </div>
                 </form >
-                <button className="btn btn-primary movie-btn mt-3">Cancelar</button>
+                <button className="btn btn-primary movies-btn mt-3">Cancelar</button>
             </div >
         </div >
     )
