@@ -6,7 +6,7 @@ export function Navbar() {
         <header>
             <nav className="container">
                 <div className="movies-nav-content">
-                    <h1>Movies</h1>
+                    <h1><a href="/">Movies</a></h1>
                     <a href="https://github.com/douglasmatosdev" target="_blank" rel="noreferrer">
                         <div className="movies-contact-container">
                             <GithubIcon />
