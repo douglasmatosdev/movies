@@ -8,7 +8,7 @@ function Listing() {
 
     const [pageNumber, setPageNumber] = useState(0)
     const [page, setPage] = useState<MoviePage>({
-        content:[],
+        content: [],
         last: true,
         totalPages: 0,
         totalElements: 0,
@@ -24,13 +24,16 @@ function Listing() {
             .then(response => {
                 const data = response.data as MoviePage
                 setPage(data)
-                setPageNumber(data.number)
             })
     }, [pageNumber])
 
+    const handlePageChange = (newPageNumber: number) => {
+        setPageNumber(newPageNumber)
+    }
+
     return (
         <>
-            <Pagination />
+            <Pagination page={page} onChange={handlePageChange} />
 
             <div className="container">
                 <div className="row">
